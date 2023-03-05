@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Physics Olympiad Materials - Contacts</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Physics Olympiad Materials</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="resources.html">Resources</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+<main>
+	<section class="contacts">
+		<h2>Contact Us</h2>
+		<p>If you have any questions, please fill out the form below or contact us at the following:</p>
+		<ul>
+			<li><strong>Address:</strong> 123 Main Street, Anytown USA</li>
+			<li><strong>Phone:</strong> 555-1234</li>
+			<li><strong>Email:</strong> info@physicsolympiadmaterials.com</li>
+		</ul>
+		
+		<form action="submit-form.php" method="post">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+			
+			<button type="submit">Submit</button>
+		</form>
+	</section>
+</main>
+
+<footer>
+	<p>&copy; 2023 Physics Olympiad Materials</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,145 @@
+/* Contact Section Styles */
+.contact {
+  background-color: #fff;
+  padding: 3rem;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #333;
+}
+
+.contact-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.column-left, .column-right {
+  flex-basis: calc(33.333% - 1.5rem);
+}
+
+.column-right img {
+  width: 100%;
+  max-width: 500px; /* Change this value to adjust the maximum width of the image */
+  height: auto;
+}
+
+.column-center {
+  flex-basis: calc(33.333% - 1.5rem);
+  margin: 0 1.5rem;
+}
+
+.contact-info ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-info ul li {
+  margin-bottom: 1rem;
+}
+
+.contact-info ul li strong {
+  display: inline-block;
+  width: 8rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  color: #333;
+}
+
+.social-links {
+  margin-top: 2rem;
+}
+
+.social-links h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.social-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.social-links ul li {
+  margin-right: 1rem;
+}
+
+.social-links ul li a {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  background-color: #333;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 3rem;
+  color: #fff;
+}
+
+.social-links ul li a img {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+  margin-top: 0.75rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #222;
+}
